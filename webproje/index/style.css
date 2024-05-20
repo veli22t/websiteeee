@@ -1,0 +1,61 @@
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orta {
+    width: 55%;
+
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    width: 20%;
+    height: 32vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img {
+    width: 100%;
+    height: 27vh;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.text {
+    width: 100%;
+
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 22vh;
+    object-fit: cover;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 30px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 30px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 30px -7px rgba(0, 0, 0, 0.75);
+    transition: 0.7s;
+}
